@@ -1,0 +1,95 @@
+/* pages/begin/begin.wxss */
+
+page {
+  background-color: #e9accd;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.title2-bord {
+  width: 620rpx;
+  height: 68rpx;
+  position: absolute;
+  display: flex;
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  border: 8rpx solid #f36;
+  background-color: #f36;
+  border-radius: 60rpx;
+}
+
+.title2-text {
+  margin-top: -20rpx;
+  width: 620rpx;
+  height: 68rpx;
+  margin-left: 20%;
+}
+
+.title2-image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.title2-bord .title2 {
+  margin-left: 30rpx;
+  font-size: 60rpx;
+  color: #fff;
+  font-weight: bold;
+  font-family: microsoft yahei;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.Checkpoint {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 150rpx;
+  align-items: center;
+}
+
+.check {
+  margin: 0rpx;
+  padding: 5rpx;
+}
+
+.point {
+  margin-left: 25rpx;
+  margin-top: 30rpx;
+  width: 140rpx;
+  height: 140rpx;
+  /* border: 8rpx solid #f36; */
+  border-radius: 10rpx;
+  background-color: #da95ba;
+  box-shadow: 3px 3px 3px #000;
+}
+
+.point .text-point {
+  margin-top: 20rpx;
+  position: absolute;
+  font-size: 70rpx;
+  font-weight: bold;
+  color: #fff;
+  width: 140rpx;
+  height: 140rpx;
+  text-align: center;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.point .point-image {
+  width: 140rpx;
+  height: 140rpx;
+  position: absolute;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.image{
+  width:110rpx; 
+  height:110rpx;
+}
+.Checkpoint-view {
+  width: 90%;
+  height: 80vh;
+  margin-left: 20rpx;
+}

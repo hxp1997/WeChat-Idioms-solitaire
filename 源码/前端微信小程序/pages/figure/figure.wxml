@@ -1,0 +1,17 @@
+<view class='f-container'>
+  <view class='biaoti'>
+    <text class="t-biaoti">选择角色</text>
+  </view>
+  <view class='vfselectrole1' bindtap="fselectrole1">
+    <image class='liubei' src='/images/liubei.jpg'></image>
+    <text class='fselectrole1'>刘备</text>
+  </view>
+  <view class='vfselectrole2' bindtap="fselectrole2">
+    <image class='guanyu' src='/images/guanyu.jpg'></image>
+    <text class='fselectrole2'>关羽</text>
+  </view>
+  <view class='vfselectrole3' bindtap="fselectrole3">
+    <image class='zhangfei' src='/images/zhangfei.jpg'></image>
+    <text class='fselectrole3'>张飞</text>
+  </view>
+</view>

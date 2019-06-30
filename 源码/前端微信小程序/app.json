@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/index/index",
+    "pages/choice/choice",
+    "pages/figure/figure",
+    "pages/role/role",
+    "pages/rank/rank"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e9accd",
+    "navigationBarTitleText": "成语接龙",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#e9accd"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,77 @@
+.r-container{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e49ac2;
+  z-index: -999;
+}
+.vselectrole{
+  margin-top: 230rpx;
+  border: 10rpx solid #405f80;
+  width: 380rpx;
+  height: 115rpx;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #acace9;
+}
+.selectrole{
+  font-size: 80rpx;
+  font-family: FZShuTi;
+  font-weight: bold;
+  line-height: 115rpx;
+  
+  
+ 
+  
+}
+.vselectrole1{
+  margin-top: 140rpx;
+  border: 10rpx solid #405f80;
+  width: 280rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ace9da;
+}
+.selectrole1{
+  font-size: 75rpx;
+  font-family: FZShuTi;
+  line-height: 90rpx;
+  
+ 
+}
+.vselectrole2{
+  margin-top: 70rpx;
+  border: 10rpx solid #405f80;
+  width: 280rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #bbe9ac;
+}
+.selectrole2{
+  font-size: 75rpx;
+  font-family: FZShuTi;
+  line-height: 90rpx;
+  
+  
+}
+.vselectrole3{
+  margin-top: 70rpx;
+  border: 10rpx solid #405f80;
+  width: 280rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.selectrole3{
+  font-size: 75rpx;
+  font-family: FZShuTi;
+  line-height: 90rpx;
+ 
+ 
+}

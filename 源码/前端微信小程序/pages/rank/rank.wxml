@@ -1,0 +1,32 @@
+<view class='Checkpoint-view'>
+  <view class='title2-bord'>
+    <view class='title2-text'>
+      <image class='title2-image' src='/images/atm.png'></image>
+      <text class="title2">排行榜</text>
+    </view>
+  </view>
+  <view class='Checkpoint'>
+    <view class='brecord'>
+      <text class="btext1">排名</text>
+      <text class="btext2">昵称</text>
+      <text class="btext3">角色</text>
+      <text class="btext4">关卡</text>
+    </view>
+    <block wx:for="{{rank_data}}" wx:for-index="i" wx:for-item="item" wx:key="{{postid}}">
+      <view class='record'>
+        <view class='check1'>
+          <text class="text-point1">{{i+1}}</text>
+        </view>
+        <view class='check'>
+          <text class="text-point">{{item[0]}}</text>
+        </view>
+        <view class='check2'>
+          <text class="text-point2">{{item[2]}}</text>
+        </view>
+        <view class='check3'>
+          <text class="text-point3">{{item[1]}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

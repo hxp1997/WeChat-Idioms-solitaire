@@ -1,0 +1,14 @@
+<view class='r-container'>
+  <view class='vselectrole'>
+    <text class='selectrole'>难度等级</text>
+  </view>
+  <view class='vselectrole1' bindtap="selectrole1">
+    <text class='selectrole1'>难度一</text>
+  </view>
+  <view class='vselectrole2' bindtap="selectrole2">
+    <text class='selectrole2'>难度二</text>
+  </view>
+  <view class='vselectrole3' bindtap="selectrole3">
+    <text class='selectrole3'>难度三</text>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<image class='background' src='/images/bgck.png'></image>
+
+<view class="view-contain">
+  <image class='logo' src='/images/LOGO.png'></image>
+  <image catchtap='begin' class='begin' src='/images/btn2.jpg'></image>
+  <image catchtap='choice' class='choice' src='/images/btn1.png'></image>
+  <image catchtap='rank' class='rank' src='/images/btn3.png'></image>
+</view>
+<view class='guize'>
+  <text class='guize-text' catchtap='showguize'>规则</text>
+</view>

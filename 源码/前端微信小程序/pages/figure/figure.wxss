@@ -1,0 +1,73 @@
+
+.f-container{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9accd;
+  z-index: -999;
+}
+.biaoti{
+  margin-top: 120rpx;
+  border: 1rpx solid #405f80;
+  width: 330rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #df86b6;
+}
+.t-biaoti{
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 90rpx;
+  
+  letter-spacing: 15rpx;
+}
+.vfselectrole1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-top: 310rpx;
+}
+.liubei{
+  width: 110rpx;
+  height: 190rpx;
+}
+.vfselectrole2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-top: 590rpx;
+}
+.guanyu{
+  width: 110rpx;
+  height: 200rpx;
+}
+.vfselectrole3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 20rpx;
+  margin-top: 880rpx;
+}
+.zhangfei{
+  width: 110rpx;
+  height: 200rpx;
+}
+.fselectrole1{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.fselectrole2{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.fselectrole3{
+  font-size: 35rpx;
+  font-weight: bold;
+}

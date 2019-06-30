@@ -1,0 +1,87 @@
+/**index.wxss**/
+.d-container{
+  background-color:  #e9accd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container{
+  position: absolute;
+  width: 100%;
+  /* height: 100vh; */
+  background-color:  #e9accd;
+}
+.daojishi{
+  border: 1px solid #e9accd;
+  width: 180rpx;
+  height: 42rpx;
+  border-radius: 5px;
+  text-align: center; 
+  background-color: #fff;
+  margin-top: 6rpx;
+}
+.moto{
+  font-size: 26rpx;
+  
+}
+.up_page {
+  margin-top: -190rpx;
+  padding-top: 5rpx;
+  background-color: #e9accd;
+  width: 100%;
+  position: absolute;
+  height: 800rpx;
+  border-radius: 10rpx;
+  border:1px solid #8e8e8e;
+}
+
+.flex_wrp_content {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; 
+  height: 74%;
+}
+
+.flex-wrp {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 9rpx;
+}
+
+.flex-item {
+  padding-left: 16rpx;
+  text-align: center;
+  line-height: 68rpx;
+  justify-content: space-start;
+  width: 70rpx;
+  height: 70rpx;
+  font-weight: bold;
+  color: #000;
+}
+
+.ans{
+  padding-top: 10rpx;
+  background-color: #515151;
+  position: absolute;
+  display: flex;
+  top: 900rpx;
+  width: 100%;
+  height: 270rpx;
+  border-radius: 15rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border:1px solid #8e8e8e;
+}
+
+.ans_button{
+  padding-left: 15rpx;
+  width: 65rpx;
+  height: 65rpx;
+  text-align: center;
+  line-height: 65rpx;
+  color: #000;
+  font-weight: bold;
+}

@@ -1,0 +1,146 @@
+page {
+  background-color: #e9accd;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.title2-bord {
+  width: 600rpx;
+  height: 78rpx;
+  position: absolute;
+  display: flex;
+  margin-top: 50rpx;
+  margin-left: 60rpx;
+  border: 8rpx solid #f09;
+  background-color: #f09;
+  border-radius: 60rpx;
+}
+
+.title2-text {
+  margin-top: -10rpx;
+  width: 620rpx;
+  height: 78rpx;
+  margin-left: 25%;
+}
+
+.title2-image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.title2-bord .title2 {
+  margin-left: 30rpx;
+  font-size: 60rpx;
+  color: #fff;
+  font-weight: bold;
+  font-family: microsoft yahei;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.Checkpoint {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160rpx;
+}
+
+.brecord {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 100rpx;
+  border: 2rpx solid #e9accd;
+  background-color: #e9accd;
+  margin-left: 0rpx;
+  margin-top: 30rpx;
+}
+.btext1{
+  font-size: 60rpx;
+  line-height: 100rpx;
+  margin-left: 25rpx;
+  color: 	#ff0080;
+  font-weight: bold;
+}
+.btext2{
+  font-size: 60rpx;
+  line-height: 100rpx;
+  color: 	#ff0080;
+  font-weight: bold;
+  margin-left: 90rpx;
+}
+.btext3{
+  font-size: 60rpx;
+  line-height: 100rpx;
+  color: 	#ff0080;
+  font-weight: bold;
+  margin-left: 120rpx;
+}
+.btext4{
+  font-size: 60rpx;
+  line-height: 100rpx;
+  color: 	#ff0080;
+  font-weight: bold;
+  margin-left: 30rpx;
+}
+.record {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  height: 100rpx;
+  border: 2rpx solid #e49ac2;
+  background-color: #acace9;
+  margin-left: 0rpx;
+  margin-top: 30rpx;
+}
+
+.check1 {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  border: 2rpx solid #000;
+  border-radius: 50%;
+  background-color: #00bfff;
+}
+.check {
+  width: 260rpx;
+  height: 100rpx;
+  text-align: center;
+  border: 2rpx solid #000;
+  border-radius: 50%;
+  background-color: #00bfff;
+  margin-left: 30rpx;
+}
+.check2 {
+  width: 150rpx;
+  height: 100rpx;
+  text-align: center;
+  border: 2rpx solid #000;
+  border-radius: 50%;
+  background-color: #00bfff;
+  margin-left: 30rpx;
+}
+.text-point1 {
+  line-height: 100rpx;
+  font-size: 50rpx;
+}
+.text-point {
+  line-height: 100rpx;
+  font-size: 35rpx;
+  
+}
+
+.text-point2 {
+  
+  line-height: 100rpx;
+  font-size: 35rpx;
+}
+.text-point3 {
+  margin-left: 65rpx;
+  line-height: 100rpx;
+  font-size: 45rpx;
+  
+}

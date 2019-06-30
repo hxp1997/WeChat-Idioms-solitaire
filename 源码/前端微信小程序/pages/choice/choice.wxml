@@ -1,0 +1,20 @@
+<view class='Checkpoint-view'>
+  <view class='title2-bord'>
+    <view class='title2-text'>
+      <image class='title2-image' src='/images/atm.png'></image>
+      <text class="title2">闯关记录</text>
+    </view>
+  </view>
+  <view class='Checkpoint'>
+    <block wx:for="{{checkpoint}}" wx:for-index="i" wx:for-item="item" wx:key="{{postid}}">
+      <view class='check'>
+        <view data-postid='{{item}}' data-isfinish='{{Storage[item]}}' class='point' bindtap='enter'>
+          <text wx:if="{{Storage[item]}}" class="text-point">{{item}}</text>
+          <view wx:else class='point-image'>
+            <image class='image' src='/images/lock.png'></image>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
